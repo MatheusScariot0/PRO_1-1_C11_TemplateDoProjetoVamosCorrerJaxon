@@ -10,7 +10,8 @@ boyImg = loadAnimation("Runner-1.png","Runner-2.png");
 
 function setup(){
  createCanvas(400,400);
-
+var boy= createSprite
+var path= createSprite
 // Movendo o fundo 
 
 
@@ -26,7 +27,8 @@ leftBoundary.visible = false;
 
 
 //Crie Boundary direito 
-
+rightBoundary=createSprite(0,0,100,800);
+rightBoundary.visible = false;
 }
 
 
@@ -37,7 +39,7 @@ path.velocityY = 4;
 // Menino se movendo no eixo X com o mouse
 edges= createEdgeSprites();
 boy.collide(edges[3]);
-
+boyImg.x = mouseX
 
 
  //Reiniciar o fundo
