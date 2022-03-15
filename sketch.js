@@ -43,7 +43,6 @@ boyImg.x = mouseX
 
 
  //Reiniciar o fundo
- 
 
 
 
